@@ -1,0 +1,60 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f8f9fa;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .container {
+    max-width: 600px;
+    margin: 50px auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  h1 {
+    text-align: center;
+    color: #6c757d;
+  }
+  
+  #taskInputContainer {
+    display: flex;
+    margin-bottom: 20px;
+  }
+  
+  #taskInput {
+    flex: 1;
+    padding: 10px;
+    border: none;
+    border-radius: 25px 0 0 25px;
+    background-color: #f1f3f4;
+    color: #495057;
+    font-size: 16px;
+    outline: none;
+  }
+  
+  #addTaskButton {
+    padding: 10px 20px;
+    border: none;
+    background-color: #129334;
+    color: #fff;
+    border-radius: 0 25px 25px 0;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  li {
+    padding: 15px;
+    border-bottom: 1px solid #dee2e6;
+    display: flex;
+    align-items: center;
+    transition: background-color 0.3s ease;
+  }
+  
