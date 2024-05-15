@@ -58,3 +58,12 @@ body {
     transition: background-color 0.3s ease;
   }
   
+  .deleteBtn {
+    margin-left: auto;
+    background-color: #f44336;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 4px;
+    cursor: pointer;
+  }
